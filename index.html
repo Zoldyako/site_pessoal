@@ -6,57 +6,67 @@
     <title>José Victor</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <div>
-                <img src="#" alt="Foto do desenvolvedor José Victor">
+<body class="bg-slate-900 h-screen">
+    <header class="bg-slate-500 text-gray-300 font-medium">
+        <nav class="flex justify-between items-center max-w-screen-lg mx-auto px-32 py-2">
+            <div class="flex items-center gap-2">
+                <img class="max-h-12 rounded-full shadow" src="img/jose.jpeg" alt="Foto do desenvolvedor José Victor">
                 <p>José Victor</p>
             </div>
-            <div>
-                <ul>
-                    <li>Github</li>
-                    <li>Placeholder</li>
-                </ul>
-            </div>
+            <ul class="flex gap-8 pr-1">
+                <li><a href="https://github.com/zoldyako">
+                    <p class="py-1 px-2 rounded-lg bg-slate-400 text-gray-800 hover:bg-slate-300">Github</p></a>
+                </li>
+                <li><a href="https://linkedin.com/jose-victor-dias-rodrigues">
+                    <p class="py-1 px-2 rounded-lg bg-slate-400 text-gray-800 hover:bg-slate-300"2>Linkedin</p></a>
+                </li>
+            </ul>
         </nav>
     </header>
-    <main>
-        <div class="about">
-            <h1>
-                Sobre
-            </h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur quas corporis temporibus obcaecati mollitia porro itaque, consequuntur, expedita soluta doloribus, blanditiis minima praesentium unde. Voluptatibus totam animi sint placeat error.
-            Veritatis nobis eveniet obcaecati repellendus velit voluptas tempora dolorem quis distinctio iure accusamus quae, molestiae inventore voluptatum ipsa fuga culpa exercitationem. Id nostrum explicabo dolorum quos recusandae, adipisci pariatur amet!
-            Cumque, aperiam possimus ipsam ratione in pariatur perspiciatis necessitatibus harum, quos tempore qui autem magnam recusandae dicta animi officiis quis deserunt, aliquid saepe esse. Praesentium delectus perferendis voluptatibus ipsam ex?
-            Incidunt ipsa necessitatibus eligendi laudantium non neque nihil ad porro ut tempora blanditiis perspiciatis similique exercitationem provident molestiae quasi qui itaque, animi alias nulla aperiam delectus! Fugiat veritatis eveniet nobis.
-            Sunt harum aut commodi voluptatum pariatur. Suscipit possimus, deserunt beatae vitae tempora provident molestias iure rem illo ex modi quis, temporibus consectetur cupiditate corrupti. Voluptatum minus temporibus in. Accusamus, aut.
-            Eum ea, optio, deleniti necessitatibus quis dolores qui consectetur libero nihil reiciendis adipisci sunt? Et suscipit minima soluta quae a ipsa asperiores illum, sed, repellendus voluptates quod qui optio consectetur!
-            Assumenda adipisci veritatis nulla vel quos tempora maxime nobis, neque sequi sint aspernatur recusandae soluta eius non, aperiam officiis quidem animi impedit inventore eligendi nisi blanditiis beatae deserunt eveniet! Eligendi?
-            Eligendi quos ad facere provident voluptates, commodi, officiis saepe totam maxime iste amet. Eos autem natus, ab necessitatibus perferendis voluptatibus sequi maiores expedita praesentium sunt veritatis enim nobis esse accusamus.
-            Labore, magnam impedit! Consequatur eligendi cupiditate ex illum soluta, quasi perferendis neque quisquam! Veniam doloremque animi laborum repellat facilis? Eveniet excepturi fugiat ipsa sit nobis cum dolore, eum quis non.
-            Autem officiis numquam praesentium error, est recusandae quo, suscipit blanditiis beatae consequatur tempora quod rerum corporis tenetur. Culpa, fugit. Similique nesciunt dolor omnis, architecto aliquam alias incidunt est impedit molestiae!</p>
-        </div>
-        <div class="container">
-            <div class="project one">
-                <h2>Projeto 1</h2>
-                <div>
-                    <figure>
-                        <img src="" alt="">
-
-                    </figure>
+    <main class="flex justify-center gap-8 mt-8 text-gray-400">
+        <div class="flex gap-8 max-w-screen-md">
+            <div>
+                <div class="mb-8">
+                    <h1 class="text-xl font-medium mb-4">Sobre mim</h1>
+                    <p>Olá, me chamo José Victor, tenho 25 anos, nascido em Salvador-BA, me mudei para a cidade de Águas de Lindóia em 2023 e com isso tive a oportunidade de fazer o vestibular para a Fatec Itapira.</p>
+                </div>
+                <div class="mb-8">
+                    <h2 class="text-xl font-medium pb-4">Formação Acadêmica</h2>
+                    <p>Atualmente estou estudando na Fatec Itapira, cursando Desenvolvimento de Software Multiplataforma no 3º semestre.</p>
+                </div>
+                <div >
+                    <h2 class="text-xl font-medium pb-4">Hobbies</h2>
+                    <p>No meu tempo livre gosto jogar, estudar, ver vídeos no yt e de vez enquando ler. Também gosto de brincar com meus gatos (tenho 7 kk).</p>
                 </div>
             </div>
-            <div class="project two">
-                <h2>Projeto 2</h2>
-                <div>
-                    <figure>
-                        <img src="" alt="">
-
-                    </figure>
+            <div class="flex flex-col gap-y-8 min-w-fit">
+                <div class="shadow">
+                    <h2 class="text-xl text-center font-medium pb-4">Etch-Pad</h2>
+                    <div>
+                        <a href="https://zoldyako.github.io/etch-a-sketch/" target="_blank">
+                            <figure>
+                                <img class="rounded-md" src="img/etch-pad.png" alt="">
+                                <figcaption class="text-center text-sm mt-1">Smile</figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                <div class="shadow">
+                    <h2 class="text-xl text-center font-medium pb-4">Projeto 2</h2>
+                    <div>
+                        <a href="https://zoldyako.github.io/admin_panel/" target="_blank">
+                            <figure>
+                                <img class="rounded-md" src="https://placehold.co/300x150" alt="">
+                                <figcaption class="text-center text-sm mt-1">Projeto TOP</figcaption>
+                            </figure>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
+    <footer class="bg-slate-500 p-2 sticky top-full text-center text-gray-300 m-4 rounded-lg">
+        <p><a href="https://github.com/zoldyako">Desenvolvido por José Victor</a></p>
+    </footer>
 </body>
 </html>
